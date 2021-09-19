@@ -1,9 +1,4 @@
-local Tunnel = module("vrp", "lib/Tunnel")
-local Proxy = module("vrp", "lib/Proxy")
 
-vRPclient = Tunnel.getInterface("vRP", "Magni_Report") 
-vRP = Proxy.getInterface("vRP")
-local version = module("version")
 
 HT = nil
 TriggerEvent('HT_base:getBaseObjects', function(obj)
